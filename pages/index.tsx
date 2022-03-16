@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 
             <Header />
 
-            <main className="flex-1 flex items-center justify-center">
+            <main className="flex-1 flex items-center justify-center overflow-y-scroll md:overflow-auto">
                 <Board />
             </main>
         </div>

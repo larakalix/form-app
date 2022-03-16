@@ -23,7 +23,7 @@ export const Board = () => {
     };
 
     return (
-        <div className="border border-gray-100 rounded-md py-8 px-4 min-w-[500px]">
+        <div className="border border-gray-100 rounded-md py-8 px-4 min-w-[90vw] md:min-w-[500px]">
             <h1 className="mb-4 text-center font-bold">Consultas</h1>
 
             <form>
